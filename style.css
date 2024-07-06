@@ -1,0 +1,129 @@
+
+body{
+    font-family: sans-serif;
+
+}
+
+main{
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.doctor-img{
+ height: 100vh;
+ }
+
+
+/* Forms*/
+
+ .header{
+margin-bottom: 50px;
+ }
+
+.title{
+    color: darkcyan;
+    font-family: sans-serif;
+    font-size: 51px;
+
+ }
+
+.underlined{
+     border-bottom: 1.5px solid darkcyan;
+     display: inline;
+     padding-bottom: 3px;
+}
+
+
+.forms{
+    background-color:white;
+ }
+
+/* input styling */
+
+
+label{
+    /* font-size: small; */
+    font-weight: bold;
+}
+
+#phone-number{
+    margin-top:4px;
+    height:35px;
+    width: 19rem;
+    border:1.4px solid rgb(156, 154, 154,0.4);
+    border-radius: 3px;
+    outline-color:  darkcyan;
+    
+}
+
+/* remove default styling in number input */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+#name{
+    margin-top:4px;
+    height:35px;
+    width: 19rem;
+    border:1.4px solid rgb(156, 154, 154,0.4);
+    border-radius: 3px;
+    outline-color:  darkcyan;
+    
+}
+
+.messages{
+    resize: none;
+    margin-top:4px;
+    height:130px;
+    width: 19rem;
+    border:1.4px solid rgb(156, 154, 154,0.4);
+    border-radius: 3px;
+    outline-color:  darkcyan;
+}
+
+
+.appointment-time{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.time-button{
+width:4rem;
+height: 1.5rem;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+color: white;
+background-color:darkcyan;
+font-family: sans-serif;
+
+}
+
+.submit-button{
+width:6.8rem;
+height: 2.3rem;
+border: none;
+border-radius: 3px;
+font-weight: bold;
+color: white;
+background-color:darkcyan;
+font-family: sans-serif;
+}
+
+.icon{
+    background-image: url(✉);
+}
+ 
